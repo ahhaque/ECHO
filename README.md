@@ -1,5 +1,5 @@
 # ECHO
-ECHO is a semi-supervised framework for classifying evolving data streams based on our previous approach SAND. The most expensive module of SAND is the change detection module, which has cubic time complexity. ECHO uses dynamic  programming to reduce the time complexity. Moreover, ECHO has a maximum allowable sliding window size. If there is no concept drift detected within this limit, ECHO updates the classifiers and resets the sliding window. Experiment results show that ECHO achieves significant speed up over SAND while maintaining similar accuracy. Please refer to the paper (mentioned in the reference section) for further details. 
+Efficient Semi-Supervised Adaptive Classification and Novel Class Detection over Data Stream
 
 ## Synopsis
 ECHO is a semi-supervised framework for classifying evolving data streams based on our previous approach SAND. The most expensive module of SAND is the change detection module, which has cubic time complexity. ECHO uses dynamic 
