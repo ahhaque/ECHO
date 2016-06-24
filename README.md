@@ -24,11 +24,11 @@ To execute the program in a windows operating system:
 1. Open a command prompt inside DIST_ECHO_v_0_1 folder folder.
 2. Run the command ``java -cp ECHO_v_0_1.jar [OPTION]''
 
-## Options are following:
+## Option(s):
 * -F 
  * Input file path. Do not include file extension .arff in the file path.
  
-## Optional options are following:
+## Optional option(s):
 * -S
  * Size of warm-up period chunks. Default is 2000 instances.
 * -L
