@@ -27,6 +27,10 @@ To execute the program in a windows operating system:
 Options are following:
 * -F 
  * Input file path. Do not include file extension .arff in the file path.
+ 
+Optional options are following:
+* -S
+ * Size of warm-up period chunks. Default is 2000 instances.
 * -L
  * Maximum number of models in the ensemble. Default value is 6.
 * -U
@@ -45,10 +49,6 @@ Options are following:
  * Value of gamma, which is used to calculate the cushion period. Default value is 0.5. 
 * -R 
  * Relaxation parameter. It is used in the change detection procedure. Default value is same as the value of Sensitivity.
- 
-Optional options are following:
-* -S
- * Size of warm-up period chunks. Default is 2000 instances.
 
 
 ## Output
