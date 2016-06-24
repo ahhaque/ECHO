@@ -24,11 +24,11 @@ To execute the program in a windows operating system:
 1. Open a command prompt inside DIST_ECHO_v_0_1 folder folder.
 2. Run the command ``java -cp ECHO_v_0_1.jar [OPTION]''
 
-Options are following:
+## Options are following:
 * -F 
  * Input file path. Do not include file extension .arff in the file path.
  
-Optional options are following:
+## Optional options are following:
 * -S
  * Size of warm-up period chunks. Default is 2000 instances.
 * -L
@@ -52,11 +52,11 @@ Optional options are following:
 
 
 ## Output
-# Console output
+### Console output
 * The program shows progress or any change point detected in console. 
 * At the end, it reports percentage of labeled data used.
 
-# File output
+### File output
 1. .log file contains important debug information.
 2. .tmpres file contains the error rates for each chunk.  There are six columns as follows:
  * Chunk #= The current chunk number. Each chunk contains 1000 instances.
