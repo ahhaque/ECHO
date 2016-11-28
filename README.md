@@ -72,4 +72,4 @@ To execute the program in a windows operating system:
  * ERR% = % classification error (including FP, FN, and misclassification within existing class).
 
 ## Reference
-[Efficient Handling of Concept Drift and Concept Evolution over Stream Data](http://icde2016.fi/papers.php)
+[Efficient Handling of Concept Drift and Concept Evolution over Stream Data](http://ieeexplore.ieee.org/document/7498264/)
