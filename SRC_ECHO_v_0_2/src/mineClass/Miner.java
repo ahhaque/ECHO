@@ -1210,7 +1210,7 @@ public class Miner implements OptionHandler{
         
         /* declare the change detection object */
         CpdDP changeDetector = new CpdDP(Constants.MAXSLIDINGWINDOWSIZE, Constants.RELAXATION, Constants.GAMMA, Constants.SENSITIVITY);
-        //to monitor the error in the current window, since we dont save the error in the dynamic window for SAND
+        //to monitor the error in the current window, since we dont save the error in the dynamic window for ECHO
         ArrayList<Double> errorMonitor = new ArrayList<Double>(); 
         int estimatedCP = -1;
         
