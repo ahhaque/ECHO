@@ -22,7 +22,7 @@ All of above except java sdk are included inside SRC_ECHO_v_0_1 & DIST_ECHO_v_0_
 ## Execution
 To execute the program in a windows operating system:
 1. Open a command prompt inside DIST_ECHO_v_0_1 folder folder.
-2. Run the command ``java -cp ECHO_v_0_1.jar [OPTION(S)]''
+2. Run the command ``java -jar ECHO_v_0_1.jar [OPTION(S)]''
 
 ## Option(s):
 * -F 
