@@ -26,29 +26,29 @@ To execute the program in a windows operating system:
 
 ## Option(s):
 * -F 
- * Input file path. Do not include file extension .arff in the file path.
+  * Input file path. Do not include file extension .arff in the file path.
  
 ## Optional option(s):
 * -S
- * Size of warm-up period chunks. Default is 2000 instances.
+  * Size of warm-up period chunks. Default is 2000 instances.
 * -L
- * Maximum number of models in the ensemble. Default value is 6.
+  * Maximum number of models in the ensemble. Default value is 6.
 * -U
- * Value for confidence threshold. Please refer to the paper for description of confidence threshold. Default value is 0.90.
+  * Value for confidence threshold. Please refer to the paper for description of confidence threshold. Default value is 0.90.
 * -D
- * use 1 here to execute ECHO-D, 0 to execute ECHO-F. Please refer to the paper for description about ECHO-D, and ECHO-F. Default value is 1.
+  * use 1 here to execute ECHO-D, 0 to execute ECHO-F. Please refer to the paper for description about ECHO-D, and ECHO-F. Default value is 1.
 * -T
- * Labeling delay in number of instances. Default value for classification only is 1. Use appropriate value for novel class detection.
+  * Labeling delay in number of instances. Default value for classification only is 1. Use appropriate value for novel class detection.
 * -C
- * Classification delay in number of instances. Default value for classification only is 0. Use appropriate value for novel class detection.
+  * Classification delay in number of instances. Default value for classification only is 0. Use appropriate value for novel class detection.
 * -W
- * Maximum allowable window size. Default value is 3000.
+  * Maximum allowable window size. Default value is 3000.
 * -A
- * Sensitivity (denoted by alpha). Default value is 0.001.
+  * Sensitivity (denoted by alpha). Default value is 0.001.
 * -G
- * Value of gamma, which is used to calculate the cushion period. Default value is 0.5. 
+  * Value of gamma, which is used to calculate the cushion period. Default value is 0.5. 
 * -R 
- * Relaxation parameter. It is used in the change detection procedure. Default value is same as the value of Sensitivity.
+  * Relaxation parameter. It is used in the change detection procedure. Default value is same as the value of Sensitivity.
 
 
 ## Output
