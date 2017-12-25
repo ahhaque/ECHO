@@ -36,7 +36,7 @@ To execute the program in a windows operating system:
 * -U
   * Value for confidence threshold. Please refer to the paper for description of confidence threshold. Default value is 0.90.
 * -D
-  * use 1 here to execute ECHO-D, 0 to execute ECHO-F. Please refer to the paper for description about ECHO-D, and ECHO-F. Default value is 1.
+  * 1 = ECHO-D; 0 = ECHO-F. Please refer to the paper for description about ECHO-D, and ECHO-F. Default value is 1.
 * -T
   * Labeling delay in number of instances. Default value for classification only is 1. Use appropriate value for novel class detection.
 * -C
